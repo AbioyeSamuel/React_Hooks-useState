@@ -2,8 +2,8 @@ import React, { useState } from "react";
 
 function App() {
   // React Hooks - useState
-  const state = useState(123);
-  console.log(state);
+  const [red, green, blue] = useState(123, 34, 56);
+  console.log(green);
 
   function increase() {}
   return (
