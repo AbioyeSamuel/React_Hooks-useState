@@ -5,8 +5,8 @@ var count = 0;
 
 ReactDOM.render(
   <div className="container">
-    <h1>0</h1>
-    <button>+</button>
+    <h1>{count}</h1>
+    <button onClick={increase}>+</button>
   </div>,
   document.getElementById("root")
 );
