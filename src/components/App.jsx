@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 function App() {
-  var count = 0;
+  // React Hooks - useState
+  const state = useState(123);
+  console.log(state);
 
-  function increase() {
-    count++;
-  }
+  function increase() {}
   return (
     <div className="container">
-      <h1>{count}</h1>
+      <h1>{state}</h1>
       <button onClick={increase}>+</button>
     </div>
   );
