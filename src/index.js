@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+var count = 0;
+
 ReactDOM.render(
   <div className="container">
     <h1>0</h1>
@@ -8,4 +10,3 @@ ReactDOM.render(
   </div>,
   document.getElementById("root")
 );
-
